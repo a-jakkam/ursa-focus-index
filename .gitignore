@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.coverage
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+# Sensor recordings and generated session outputs remain local.
+data/
+outputs/
+*.csv
+*.tsv
+*.edf
+*.bdf
+*.xdf
+*.pdf
+*.zip
+
